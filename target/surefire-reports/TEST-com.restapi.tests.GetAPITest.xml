@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.restapi.tests.GetAPITest" time="1.312" errors="0" skipped="0">
+  <properties>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="LOGONSERVER" value="\\BNGDC01"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="VS110COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="OneDriveCommercial" value="C:\Users\Himanshu.Dubey\OneDrive - Sapiens"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft Azure Information Protection\Powershell"/>
+    <property name="=::" value="::\"/>
+    <property name="USERDOMAIN" value="SAPIENS"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="JOB_NAME" value="maven"/>
+    <property name="COMPUTERNAME" value="INLT1716"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.name" value="Himanshu.Dubey"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 9, GenuineIntel"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Himanshu.Dubey\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/maven/5/display/redirect?page=changes"/>
+    <property name="user.timezone" value="Asia/Colombo"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="BUILD_TAG" value="jenkins-maven-5"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Himanshu.Dubey\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\Himanshu.Dubey\.jenkins\war\WEB-INF\lib\remoting-4.6.jar C:\Users\Himanshu.Dubey\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\Himanshu.Dubey\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 61286"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="0a00fe892a3f137d"/>
+    <property name="=D:" value="D:\Jenkins"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_191/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\app\client\Himanshu.Dubey\product\12.2.0\client_1;D:\app\client\Himanshu.Dubey\product\12.2.0\client_1\bin;C:\Users\Himanshu.Dubey\AppData\Local\Programs\Python\Python36;C:\Users\Himanshu.Dubey\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Windows\CCM;C:\Windows\CCM;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\IBM\RationalSDLC\clearcase\RemoteClient\cteapis;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft OLE DB Provider for DB2\System\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Maven\3.6.3\bin;C:\Program Files\Java\jre1.8.0_191\bin;C:\Program Files\Git\cmd;C:\Users\Himanshu.Dubey\AppData\Local\Microsoft\WindowsApps;C:\Users\Himanshu.Dubey\AppData\Local\Programs\Microsoft VS Code\bin;C:\Maven\3.6.3\bin"/>
+    <property name="java.io.tmpdir" value="C:\Users\HIMANS~1.DUB\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\Himanshu.Dubey\AppData\Roaming"/>
+    <property name="user.language" value="en"/>
+    <property name="line.separator" value="
+"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/maven/5/"/>
+    <property name="M2_HOME" value="C:\Users\Himanshu.Dubey\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="=C:" value="C:\"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#5"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_SERVER_COOKIE" value="0a00fe892a3f137d"/>
+    <property name="JRE_HOME" value="C:\Program Files\Java\jre1.8.0_191"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\Himanshu.Dubey\.jenkins\workspace\maven@tmp"/>
+    <property name="MAVEN_HOME" value="C:\Users\Himanshu.Dubey\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="IBM_RATIONAL_RFT_INSTALL_DIR" value="C:\Program Files\IBM\SDP\FunctionalTester\bin"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Himanshu.Dubey\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="HOMEPATH" value="\Users\Himanshu.Dubey"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="5"/>
+    <property name="maven3.interceptor" value="C:\Users\Himanshu.Dubey\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Himanshu.Dubey\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Java\jdk1.8.0_191/bin;C:\Program Files\Java\jdk1.8.0_191/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\app\client\Himanshu.Dubey\product\12.2.0\client_1;D:\app\client\Himanshu.Dubey\product\12.2.0\client_1\bin;C:\Users\Himanshu.Dubey\AppData\Local\Programs\Python\Python36;C:\Users\Himanshu.Dubey\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Windows\CCM;C:\Windows\CCM;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\IBM\RationalSDLC\clearcase\RemoteClient\cteapis;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft OLE DB Provider for DB2\System\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Maven\3.6.3\bin;C:\Program Files\Java\jre1.8.0_191\bin;C:\Program Files\Git\cmd;C:\Users\Himanshu.Dubey\AppData\Local\Microsoft\WindowsApps;C:\Users\Himanshu.Dubey\AppData\Local\Programs\Microsoft VS Code\bin;C:\Maven\3.6.3\bin;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="POM_GROUPID" value="RestAPITest"/>
+    <property name="POM_ARTIFACTID" value="RestAPITest"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/maven/"/>
+    <property name="AppIntRoot" value="C:\Program Files\Microsoft OLE DB Provider for DB2\System\"/>
+    <property name="OneDrive" value="C:\Users\Himanshu.Dubey\OneDrive - Sapiens"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/maven/5/display/redirect"/>
+    <property name="JENKINS_HOME" value="C:\Users\Himanshu.Dubey\.jenkins"/>
+    <property name="BUILD_ID" value="5"/>
+    <property name="TEMP" value="C:\Users\HIMANS~1.DUB\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="8e09"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="HUDSON_HOME" value="C:\Users\Himanshu.Dubey\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\Users\Himanshu.Dubey\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="SAPIENS"/>
+    <property name="MOZ_DISABLE_CONTENT_SANDBOX" value="1"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/maven/5/display/redirect?page=artifacts"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_191"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\Himanshu.Dubey"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/maven/display/redirect"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Himanshu.Dubey"/>
+    <property name="USERNAME" value="Himanshu.Dubey"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERDNSDOMAIN" value="SAPIENS.INT"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="C:\Users\Himanshu.Dubey\eclipse-workspace\RestAPITest"/>
+    <property name="maven.conf" value="C:\Users\Himanshu.Dubey\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\HIMANS~1.DUB\AppData\Local\Temp"/>
+    <property name="UATDATA" value="C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.class.path" value="C:\Users\Himanshu.Dubey\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\Himanshu.Dubey\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.6.0.jar;C:\Users\Himanshu.Dubey\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="C:\Users\Himanshu.Dubey\.jenkins\workspace\maven"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="IBM_RATIONAL_RFT_ECLIPSE_DIR" value="C:\Program Files\IBM\SDP"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/maven/5/display/redirect?page=tests"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_191/bin"/>
+    <property name="user.country" value="US"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="C:\Users\Himanshu.Dubey\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="JOB_BASE_NAME" value="maven"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="RestAPITest"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase classname="com.restapi.tests.GetAPITest" name="getTest" time="1.312"/>
+</testsuite>

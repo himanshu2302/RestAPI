@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1549" started-at="2021-02-19T16:59:46Z" finished-at="2021-02-19T16:59:48Z">
+  <suite name="Default suite" duration-ms="2087" started-at="2021-02-22T10:03:24Z" finished-at="2021-02-22T10:03:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1549" started-at="2021-02-19T16:59:46Z" finished-at="2021-02-19T16:59:48Z">
+    <test name="Default test" duration-ms="2087" started-at="2021-02-22T10:03:24Z" finished-at="2021-02-22T10:03:26Z">
       <class name="com.restapi.tests.GetAPITest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.restapi.tests.GetAPITest@735b5592]" name="setUp" is-config="true" duration-ms="5" started-at="2021-02-19T16:59:46Z" finished-at="2021-02-19T16:59:46Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.restapi.tests.GetAPITest@735b5592]" name="setUp" is-config="true" duration-ms="3" started-at="2021-02-22T10:03:24Z" finished-at="2021-02-22T10:03:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getTest()[pri:0, instance:com.restapi.tests.GetAPITest@735b5592]" name="getTest" duration-ms="1524" started-at="2021-02-19T16:59:46Z" finished-at="2021-02-19T16:59:48Z">
+        <test-method status="PASS" signature="getTest()[pri:0, instance:com.restapi.tests.GetAPITest@735b5592]" name="getTest" duration-ms="2051" started-at="2021-02-22T10:03:24Z" finished-at="2021-02-22T10:03:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTest -->
